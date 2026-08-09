@@ -45,7 +45,7 @@ The analysis was designed to answer key business questions:
 
 The Executive Overview provides a high-level view of marketplace performance across revenue, orders, customers, sellers, AOV, customer ratings and fulfillment.
 
-![Executive Overview](images/Executive_Report.png)
+![Executive Overview](images/Executive_Overview.png)
 
 ### Key Insights
 
@@ -122,7 +122,7 @@ This creates an opportunity to investigate seller productivity, category mix and
 
 The project uses a relational data model connecting customers, orders, order items, sellers, products, payments, reviews, geography and product categories.
 
-![Data Model](iData_Model.png)
+![Data Model](Data_Model.png)
 
 ### Main Tables
 
