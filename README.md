@@ -5,7 +5,7 @@
 ![DAX](https://img.shields.io/badge/DAX-Data%20Modeling-blue)
 ![E-Commerce](https://img.shields.io/badge/Domain-E--Commerce-orange)
 
-## 📌 Project Overview
+##  Project Overview
 
 This project analyzes the sales and operational performance of the Olist Brazilian e-commerce marketplace using Power BI.
 
@@ -23,7 +23,7 @@ The analysis follows a business-oriented approach, focusing not only on **what h
 
 ---
 
-## 🎯 Business Objectives
+##  Business Objectives
 
 The analysis was designed to answer key business questions:
 
@@ -39,13 +39,13 @@ The analysis was designed to answer key business questions:
 
 ---
 
-# 📊 Dashboard
+#  Dashboard
 
 ## Executive Overview
 
 The Executive Overview provides a high-level view of marketplace performance across revenue, orders, customers, sellers, AOV, customer ratings and fulfillment.
 
-![Executive Overview](images/executive_overview.png)
+![Executive Overview](images/Executive_Report.png)
 
 ### Key Insights
 
@@ -58,11 +58,11 @@ The Executive Overview provides a high-level view of marketplace performance acr
 
 ---
 
-# 👥 Customer Analysis
+#  Customer Analysis
 
 The Customer Analysis page focuses on customer behavior, geographic contribution and purchasing patterns.
 
-![Customer Analysis](images/customer_analysis.png)
+![Customer Analysis](Customer_Report.png)
 
 ### Key Insights
 
@@ -74,11 +74,11 @@ The Customer Analysis page focuses on customer behavior, geographic contribution
 
 ---
 
-# 🚚 Orders & Delivery Analysis
+#  Orders & Delivery Analysis
 
 This page evaluates marketplace fulfillment and delivery performance.
 
-![Orders and Delivery Analysis](images/orders_delivery_analysis.png)
+![Orders and Delivery Analysis](Order_and_Delivery_Report.png)
 
 ### Key Insights
 
@@ -94,26 +94,13 @@ Rather than treating delivery performance as a marketplace-wide issue, managemen
 
 ---
 
-# 📦 Product Analysis
 
-The Product Analysis page examines product categories and their contribution to marketplace revenue.
 
-![Product Analysis](images/product_analysis.png)
-
-### Key Insights
-
-- Revenue is distributed across several major product categories.
-- Health & Beauty was among the leading revenue-generating categories.
-- Category-level performance can help identify areas for assortment expansion and promotional opportunities.
-- Category performance should be evaluated together with customer demand and seller availability before making expansion decisions.
-
----
-
-# 🏪 Seller Analysis
+#  Seller Analysis
 
 The Seller Analysis page evaluates seller distribution, revenue contribution and seller productivity.
 
-![Seller Analysis](images/seller_analysis.png)
+![Seller Analysis](Seller_Report.png)
 
 ### Key Insights
 
@@ -131,11 +118,11 @@ This creates an opportunity to investigate seller productivity, category mix and
 
 ---
 
-# 🔍 Data Model
+#  Data Model
 
 The project uses a relational data model connecting customers, orders, order items, sellers, products, payments, reviews, geography and product categories.
 
-![Data Model](images/data_model.png)
+![Data Model](iData_Model.png)
 
 ### Main Tables
 
@@ -152,7 +139,7 @@ The project uses a relational data model connecting customers, orders, order ite
 
 ---
 
-# 🧮 Key KPIs
+#  Key KPIs
 
 | KPI | Value |
 |---|---:|
@@ -168,7 +155,7 @@ The project uses a relational data model connecting customers, orders, order ite
 
 ---
 
-# 🛠️ Tools & Technologies
+#  Tools & Technologies
 
 ### Data Preparation
 - Microsoft Excel
@@ -185,7 +172,7 @@ The project uses a relational data model connecting customers, orders, order ite
 
 ---
 
-# 📈 Analytical Approach
+#  Analytical Approach
 
 The project followed a structured analytical workflow:
 
@@ -224,7 +211,7 @@ The dashboard was structured around four major business areas:
 
 ---
 
-# 💡 Key Business Takeaways
+#  Key Business Takeaways
 
 ### 1. Revenue is geographically concentrated
 
@@ -271,7 +258,7 @@ Revenue demonstrates substantial growth over the observed period. However, the d
 
 ---
 
-# ⚠️ Data Limitations
+#  Data Limitations
 
 This analysis is based on the publicly available Olist Brazilian e-commerce dataset and therefore has several limitations:
 
@@ -285,42 +272,3 @@ Therefore, the dashboard should be interpreted as a **business diagnostic analys
 
 ---
 
-# 🚀 Potential Next Steps
-
-If additional data were available, the analysis could be extended into:
-
-- Customer cohort analysis
-- Customer segmentation
-- Seller churn analysis
-- Profitability analysis
-- Logistics partner benchmarking
-- Category-level margin analysis
-- Regional market expansion analysis
-- Customer retention modeling
-- Seller productivity benchmarking
-
----
-
-# 📁 Repository Structure
-
-```text
-Olist-Ecommerce-Analysis/
-│
-├── README.md
-│
-├── Dashboard/
-│   └── Olist_Dashboard.pbix
-│
-├── Data/
-│   └── Dataset_Source.txt
-│
-├── Images/
-│   ├── executive_overview.png
-│   ├── customer_analysis.png
-│   ├── orders_delivery_analysis.png
-│   ├── product_analysis.png
-│   ├── seller_analysis.png
-│   └── data_model.png
-│
-└── Documentation/
-    └── Olist_Analysis_Report.pdf
