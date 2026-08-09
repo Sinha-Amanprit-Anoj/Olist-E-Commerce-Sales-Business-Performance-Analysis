@@ -45,7 +45,7 @@ The analysis was designed to answer key business questions:
 
 The Executive Overview provides a high-level view of marketplace performance across revenue, orders, customers, sellers, AOV, customer ratings and fulfillment.
 
-![Executive Overview](images/Executive_Report.png)
+![Executive Overview](Executive_Report.png)
 
 ### Key Insights
 
@@ -100,7 +100,7 @@ Rather than treating delivery performance as a marketplace-wide issue, managemen
 
 The Seller Analysis page evaluates seller distribution, revenue contribution and seller productivity.
 
-![Seller Analysis](Seller_Report.png)
+![Seller Analysis](Sellers_Report.png)
 
 ### Key Insights
 
